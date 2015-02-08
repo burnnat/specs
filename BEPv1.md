@@ -316,7 +316,7 @@ peers acting in a specific manner as a result of sent options.
     }
 
     struct Device {
-        string ID<>;
+        opaque ID<32>;
         unsigned int Flags;
         unsigned hyper MaxLocalVersion;
     }
